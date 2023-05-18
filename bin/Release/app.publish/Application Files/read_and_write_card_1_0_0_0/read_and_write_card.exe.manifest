@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="read_and_write_card.exe" version="1.0.0.0" publicKeyToken="8e9cb20940cfdd96" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="read_and_write_card" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="read_and_write_card.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2254728">
+      <assemblyIdentity name="Guna.UI2" version="2.0.4.0" publicKeyToken="8B9D14AA5142E261" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>k4dfkFZoTa1/NFrWOp2futj+PIOum9gvYYoeHLXx6KY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="read_and_write_card.exe" size="14296">
+      <assemblyIdentity name="read_and_write_card" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WNxK/PeZM1vRg2y0hY/JJZAB90ybsPQKGTB2x9ba8Tc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="d12.dll" size="110629">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Nqwh8OokSeJFq+957a5Kz40R4MUjHPmKzBOBRb3SIO4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="d12c.dll" size="1339455">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>g6VxznsTceZ6fKYN4MTmTbnoCRXTPjYWvcKAJVcUHl4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="proRFL.dll" size="245819">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c/XkgMHGkt/++G4moM6usaOeSyOCqDxJpZ+IBmE5uz8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="read_and_write_card.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-8G4T75P\USER" issuerKeyHash="23c84aba8f6394eb09887c58cf30ebb8a065fa44" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MAxYHQGCK047E9AS6YdvEEWBbDsmXeiE2VcPFQvZdAA=</DigestValue></Reference></SignedInfo><SignatureValue>yhe/5/aTCwB6nOOiIYB12tjSx2sahK4Z7OPDvIwsduLTgWpntlvlLZBvpVkVoKF8n+hco3vn4PeBWJCWpjX80B9FQMaieXFnkhM6H0ecUwkJExaoNuoZAzk40ntF/sFx4mwDbGZWDqMFgYDTfVInsazf99oLnwUKb05UT59WSYA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2q4EDPsZGO2txHaeRNMJmaUWVhLgEG1YMyu1wckRpJh9ZYBN2Fw0VNEEXnrp69IaWLN3/HtNFenXPC2Q+Q2paEW0HlYm40TmOQ8yaqLNePt2HW5jOW0SnW6qJEHdeNy2DRs2Kf9gf+04HUgrWNe4R1xjgSnWmFNwTtAPaf/HNm0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0074d90b150f57d984e85d263b6c8145106f87e912d0133b4e2b82011d580c30" Description="" Url=""><as:assemblyIdentity name="read_and_write_card.exe" version="1.0.0.0" publicKeyToken="8e9cb20940cfdd96" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-8G4T75P\USER</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tssUA7aBdwb63buU/U0sBDpx5uSGE4PWuZ+XiZmdH/k=</DigestValue></Reference></SignedInfo><SignatureValue>pQwFLsFNr8juY2ExeV+YF3WUgNB2KgFOBdRMKNQZ2/g6CuLX1mCXXryhEjA2AClfNyiQ5AeGdNzK97E9loInQZLqWjn9rc2at2GGZkufpVd/dzEAxsTA+WBDOvis3VIIuNF22X5VFnrUTpKm9z8vpEhKe9rV3w4OEWMoowTrCWg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2q4EDPsZGO2txHaeRNMJmaUWVhLgEG1YMyu1wckRpJh9ZYBN2Fw0VNEEXnrp69IaWLN3/HtNFenXPC2Q+Q2paEW0HlYm40TmOQ8yaqLNePt2HW5jOW0SnW6qJEHdeNy2DRs2Kf9gf+04HUgrWNe4R1xjgSnWmFNwTtAPaf/HNm0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQPc7y8zX4k6JPEeb/iETsyzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtADgARwA0AFQANwA1AFAAXABVAFMARQBSMB4XDTIzMDUxNjE1MDc0MVoXDTI0MDUxNTIxMDc0MVowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQA4AEcANABUADcANQBQAFwAVQBTAEUAUjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2q4EDPsZGO2txHaeRNMJmaUWVhLgEG1YMyu1wckRpJh9ZYBN2Fw0VNEEXnrp69IaWLN3/HtNFenXPC2Q+Q2paEW0HlYm40TmOQ8yaqLNePt2HW5jOW0SnW6qJEHdeNy2DRs2Kf9gf+04HUgrWNe4R1xjgSnWmFNwTtAPaf/HNm0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAz6YffkNrWVArn5OtCmgc5tt3EMK3a7m5Ud/x1xhTAfokGKscZ4MJ16QysntNdEynaXaWbpTqnR3AMdSEZxBsjC5SkMXOsxz5vDLSQPH+jmpKzOsiv+aWrUT2bo3mTpPUQsud4Zy6W5Cpdvp963BWjDVGvwWgP/y7SBskPCr6rRg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
