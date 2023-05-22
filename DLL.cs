@@ -10,9 +10,7 @@ namespace read_and_write_card
 
     internal class DLL
     {
-        public const string CppFunctionsDll = @"C:\Users\Pelroy\Downloads\cardreader-main\read_and_write_card\bin\Debug\proRFL.dll";
-
-        //[DllImport(CppFunctionsDll)]
+        public const string CppFunctionsDll = @"proRFL.dll";
 
         //intialize (Open) USB
         [DllImport(CppFunctionsDll, CallingConvention = CallingConvention.StdCall, EntryPoint = "initializeUSB")]
