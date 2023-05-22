@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="read_and_write_card.exe" size="15320">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="read_and_write_card.exe" size="14808">
       <assemblyIdentity name="read_and_write_card" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Dq8ek35LDm5JrtmSymTnc0kAAxHxDnzAAltVggTQnsM=</dsig:DigestValue>
+        <dsig:DigestValue>7C0nqp/7OOJg195dCKHro/QFCjUazl83f4MX8CMJdlM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

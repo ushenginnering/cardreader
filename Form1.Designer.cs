@@ -65,7 +65,7 @@
             this.guna2Button1.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Location = new System.Drawing.Point(194, 340);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(401, 82);
             this.guna2Button1.TabIndex = 1;
@@ -99,7 +99,7 @@
             this.guna2Button2.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.Location = new System.Drawing.Point(719, 14);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(82, 82);
             this.guna2Button2.TabIndex = 1;
@@ -116,7 +116,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Font = new System.Drawing.Font("Comfortaa", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(815, 793);
             this.panel2.TabIndex = 2;
@@ -132,8 +132,8 @@
             this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(53)))), ((int)(((byte)(103)))));
             this.guna2Button4.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(398, 16);
-            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button4.Location = new System.Drawing.Point(694, 13);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(82, 82);
             this.guna2Button4.TabIndex = 2;
@@ -150,8 +150,8 @@
             this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(53)))), ((int)(((byte)(103)))));
             this.guna2Button3.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(50, 216);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button3.Location = new System.Drawing.Point(194, 282);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(401, 82);
             this.guna2Button3.TabIndex = 1;
@@ -163,7 +163,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.IndianRed;
-            this.label4.Location = new System.Drawing.Point(80, 351);
+            this.label4.Location = new System.Drawing.Point(233, 467);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(283, 45);
@@ -174,7 +174,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 102);
+            this.label3.Location = new System.Drawing.Point(197, 134);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(398, 91);
@@ -193,7 +193,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel2.ResumeLayout(false);
